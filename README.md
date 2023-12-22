@@ -4,6 +4,8 @@ this is small project which is reference from xilinx video series XVES0004, you 
 
 cd /your/location
 
+git clone /this/repository
+
 source create_proj.tcl
 
 you can rebuild the project
