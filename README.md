@@ -1,5 +1,5 @@
 # TPG_example
-this is small project which is reference from xilinx video series XVES0004, you can simulate the xilinx tpg's behavior through AXI VIP as the master instaed of using any processor
+this is a small project which is reference from xilinx video series XVES0004, you can simulate the xilinx tpg's behavior through AXI VIP as the master instaed of using any processor
 
 
 cd /your/location
