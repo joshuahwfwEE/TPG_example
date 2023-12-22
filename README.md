@@ -10,3 +10,6 @@ source create_proj.tcl
 
 you can rebuild the project
 
+this is the simulation result, if you run successfully, you will see the test success in tcl command line.
+
+![alt text](https://github.com/oshuahwfwEE/TPG_example/blob/main/tpg_sim.png?raw=true)
