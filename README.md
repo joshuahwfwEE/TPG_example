@@ -8,7 +8,7 @@ git clone /this/repository
 
 source create_proj.tcl
 
-you can rebuild the project
+you can rebuild the project  
 the main purpose is to learn how the tpg work and learn how to use the axi vip to quick develope the axi_lite master to control the ip in simulation.  
 this is the simulation result, if you run successfully, you will see the test success in tcl command line.
 
