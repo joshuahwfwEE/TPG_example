@@ -14,6 +14,49 @@ this is the simulation result, if you run successfully, you will see the test su
 
 ![alt text](https://github.com/joshuahwfwEE/TPG_example/blob/main/tpg_sim.png?raw=true)  
 
+configure different pattern by setting offset 0x20:  
+Background Pattern ID (0x0020) Register  
+• 0x00 - Pass the video input straight through the video output  
+
+• 0x1 - Horizontal Ramp which increases each component (RGB or Y) horizontally by 1  
+
+• 0x2 - Vertical Ramp which increases each component (RGB or Y) vertically by 1  
+
+• 0x3 - Temporal Ramp which increases every pixel by a value set in the motion speed register for every frame.  
+
+• 0x4 - Solid red output  
+
+• 0x5 - Solid green output  
+
+• 0x6 - Solid blue output  
+
+• 0x7 - Solid black output  
+
+• 0x8 - Solid white output  
+
+• 0x9 - Color bars  
+
+• 0xA - Zone Plate output produces a ROM based sinusoidal pattern. This option has dependencies on the motion speed, zplate horizontal starting point, zplate horizontal delta, zplate vertical starting point, and zplate vertical delta registers.  
+
+• 0xB - Tartan Color Bars  
+
+• 0xC - Draws a cross hatch pattern  
+
+• 0xD - Color sweep pattern  
+
+• 0xE - A combined vertical and horizontal ramp  
+
+• 0xF - Black and white checker board  
+
+• 0x10 - Pseudorandom pattern  
+
+• 0x11 - DisplayPort color ramp  
+
+• 0x12 - DisplayPort black and white vertical lines  
+
+• 0x13 - DisplayPort color square    
+
+  
 the simulation has 3 main test process:  
 1. frame size test:
    //test the size of the output frame is the same as configured in the TPG  
